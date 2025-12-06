@@ -1,9 +1,10 @@
 module alu_tb();
     parameter SIZE2 = 4;  // opcode width
+    parameter SIZE3 = 6;
     parameter SIZE4 = 32; 
     reg  [SIZE4-1:0] x_tb                  ;  
     reg  [SIZE4-1:0] y_tb                  ;         
-    reg  [SIZE2-1:0] opcode_tb             ;       
+    reg  [SIZE3-1:0] opcode_tb             ;       
     reg [SIZE4-1:0] ALU_result_expected;
     reg ALU_ZEROS_expected              ;
     wire [SIZE4-1:0] ALU_result_dut ;

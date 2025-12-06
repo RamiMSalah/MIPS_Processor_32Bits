@@ -1,5 +1,6 @@
 module alu #(
     parameter SIZE2 = 4,   // opcode width
+    parameter SIZE3 = 6,
     parameter SIZE4 = 32   // data width
 )(
     input  [SIZE4-1:0] x                  ,  

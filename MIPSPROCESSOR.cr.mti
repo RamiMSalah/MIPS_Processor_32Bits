@@ -5,6 +5,13 @@ QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 Top level modules:
 	register_file
 
+} {} {}} E:/Projects/Verilog/Projects/MIPS_PROCESSOR_32Bits/register_file_tb.v {1 {vlog -work work -vopt -stats=none E:/Projects/Verilog/Projects/MIPS_PROCESSOR_32Bits/register_file_tb.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module register_file_tb
+
+Top level modules:
+	register_file_tb
+
 } {} {}} E:/Projects/Verilog/Projects/MIPS_PROCESSOR_32Bits/alu.v {1 {vlog -work work -vopt -stats=none E:/Projects/Verilog/Projects/MIPS_PROCESSOR_32Bits/alu.v
 QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 -- Compiling module alu
